@@ -1,5 +1,5 @@
 #include "StdAfx.h"
-#include "GpsLogBase.h"
+#include "gpscameralog.h"
 
 
 CGpsLogBase::CGpsLogBase(void)

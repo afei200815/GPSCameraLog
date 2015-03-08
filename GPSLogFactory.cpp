@@ -1,5 +1,5 @@
 #include "StdAfx.h"
-#include "GPSLogFactory.h"
+#include "GPSCameraLog.h"
 #include "C5DMark2GPSLog.h"
 
 GPSLogFactory::GPSLogFactory(void)

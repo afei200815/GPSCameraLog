@@ -7,7 +7,6 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-#define GPSCAMERALOGAPI __declspec(dllexport)
 //
 //TODO: If this DLL is dynamically linked against the MFC DLLs,
 //		any functions exported from this DLL which call into

@@ -1,5 +1,5 @@
 #pragma once
-#include "gpslogbase.h"
+#include "gpscameralog.h"
 class GPSCAMERALOGAPI C5DMark2GPSLog :
 	public CGpsLogBase
 {

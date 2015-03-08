@@ -53,12 +53,6 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GpsLogBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GPSLogFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="C5DMark2GPSLog.h">
       <Filter>Header Files</Filter>
     </ClInclude>

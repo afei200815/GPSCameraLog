@@ -1,7 +1,5 @@
 #include "StdAfx.h"
 #include "C5DMark2GPSLog.h"
-
-#pragma comment(lib, "comsupp.lib")
 C5DMark2GPSLog::C5DMark2GPSLog(void)
 {
 }
