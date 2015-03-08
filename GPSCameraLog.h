@@ -33,13 +33,13 @@ public:
 
 	DECLARE_MESSAGE_MAP()
 };
+
+typedef enum _tagGPSLog
+{
+	enum_CANNON_5DMARK2 = 0,
+}enum_GPS_LOG;
 class GPSCAMERALOGAPI CGpsLogBase
 {
-public:
-	typedef enum _tagGPSLog
-	{
-		enum_CANNON_5DMARK2 = 0,
-	}enum_GPS_LOG;
 public:
 	CGpsLogBase(void);
 	~CGpsLogBase(void);
@@ -66,5 +66,5 @@ public:
 	GPSLogFactory(void);
 	~GPSLogFactory(void);
 public:
-	CGpsLogBase* CreateGPSLog(CGpsLogBase::enum_GPS_LOG logType);
+	CGpsLogBase* CreateGPSLog(enum_GPS_LOG logType);
 };
